@@ -42,12 +42,13 @@ public class ProductsController
         }
     }
 
-    @GetMapping("{id}")
+    @GetMapping("/products/{id}")
     @PreAuthorize("permitAll()")
     public Product getById(@PathVariable int id )
     {
         try
         {
+            // same as Product product = productDao.getById(id);
             var product = productDao.getById(id);
 
             if(product == null)
@@ -61,7 +62,7 @@ public class ProductsController
         }
     }
 
-    @PostMapping()
+    @PostMapping("/products")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public Product addProduct(@RequestBody Product product)
     {
@@ -75,13 +76,14 @@ public class ProductsController
         }
     }
 
-    @PutMapping("{id}")
+    @PutMapping("/products/{id}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void updateProduct(@PathVariable int id, @RequestBody Product product)
     {
         try
         {
-            productDao.create(product);
+            // updating to "update" instead of create and correcting parameters
+            productDao.update(id, product);
         }
         catch(Exception ex)
         {
@@ -89,7 +91,7 @@ public class ProductsController
         }
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("/products/{id}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void deleteProduct(@PathVariable int id)
     {
