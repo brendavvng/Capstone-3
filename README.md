@@ -49,9 +49,9 @@ Note: This is a single-page application. Features like the cart and checkout are
 
 ![Logo](images/screenshots/logo.png)
 
-
 <p align="center">
-  <img src="images/screenshots/screenshot1.png" alt="Screenshot 1" width="400" />
-  <img src="images/screenshots/screenshot2.png" alt="Filtering" width="400" />
-  <!-- more images -->
+  <img src="images/screenshots/Screenshot1.png" alt="Header and Navigation" width="400" />
+  <img src="images/screenshots/Screenshot2.png" alt="Product Filtering" width="400" />
+  <img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" />
+  <img src="images/screenshots/Screenshot4.png" alt="Username and Logout Button" width="400" />
 </p>
