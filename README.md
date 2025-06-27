@@ -51,7 +51,7 @@ Note: This is a single-page application. Features like the cart and checkout are
 
 
 <p align="center">
-  <img src="images/screenshots/screenshot1.png" alt="Header" width="400" />
+  <img src="images/screenshots/screenshot1.png" alt="Screenshot 1" width="400" />
   <img src="images/screenshots/screenshot2.png" alt="Filtering" width="400" />
   <!-- more images -->
 </p>
