@@ -1,7 +1,8 @@
 # Capstone 3: EasyShop E-Commerce API & Web Application 🛍️
 
 <p align="center">
-  <img src="/images/screenshots/logo2.png" alt="Logo2" width="500" height="150" />
+  <img src="/images/screenshots/logo2.png" alt="Logo2" width="500" height="150" 
+    
    ⋆ ˚｡⋆୨🍓୧⋆ ˚｡⋆
 </p>
 
