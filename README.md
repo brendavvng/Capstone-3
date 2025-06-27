@@ -48,10 +48,10 @@ Here’s a look at the current state of the EasyShop application:
 Note: This is a single-page application. Features like the cart and checkout are still under development.
 
 #### Logo
-<img src="/images/screenshots/logo.png" alt="Logo" width="400" />
+<img src="/images/screenshots/logo.png" alt="Logo" width="400" height="350" />
 
 #### 🧭 Header & Navigation
-<img src="images/screenshots/Screenshot1.png" alt="Header" width="400" height ="400"/>
+<img src="images/screenshots/Screenshot1.png" alt="Header" width="400" />
 
 ---
 
