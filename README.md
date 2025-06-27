@@ -51,7 +51,7 @@ Note: This is a single-page application. Features like the cart and checkout are
 
 <p align="center">
   <img src="images/screenshots/Screenshot1.png" alt="Header and Navigation" width="400" />
+  <img src="images/screenshots/Screenshot4.png" alt="Username and Logout Button" width="400" />
   <img src="images/screenshots/Screenshot2.png" alt="Product Filtering" width="400" />
   <img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" />
-  <img src="images/screenshots/Screenshot4.png" alt="Username and Logout Button" width="400" />
 </p>
