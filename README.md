@@ -55,15 +55,15 @@ Note: This is a single-page application. Features like the cart and checkout are
 
 ---
 
+#### 👤 User Info & Logout
+<img src="images/screenshots/Screenshot4.png" alt="User Info" width="400" />
+
+---
+
 #### 🔍 Filtering
 <img src="images/screenshots/Screenshot2.png" alt="Filtering" width="400" height="400" />
 
 ---
 
 #### 🛒 Product Listing
-<img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" height="470" />
-
----
-
-#### 👤 User Info & Logout
-<img src="images/screenshots/Screenshot4.png" alt="User Info" width="400" />
+<img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" height="530" />
