@@ -1,6 +1,6 @@
 # Capstone 3: EasyShop E-Commerce API & Web Application 🛍️
 
-<img src="/images/screenshots/logo2.png" alt="Logo2" width="100" height="50" />
+<img src="/images/screenshots/logo2.png" alt="Logo2" width="300" height="200" />
 
 Welcome to EasyShop, a full-stack e-commerce application project designed for users to browse, search, and purchase products online. This application simulates a real-world online shopping experience and includes both backend API development (using Spring Boot and MySQL) and a frontend user interface (HTML/CSS). ⋆ ˚｡⋆୨🍓୧⋆ ˚｡⋆
 
