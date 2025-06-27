@@ -1,1 +1,1 @@
-# Capstone-3
+# 🛍️ EasyShop E-Commerce API & Web Application
