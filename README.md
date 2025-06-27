@@ -50,10 +50,7 @@ Note: This is a single-page application. Features like the cart and checkout are
 ![Logo](images/screenshots/logo.png)
 
 
-<img src="images/screenshots/Screenshot2.pngg" alt="Filtering" width="400" />
-
-<img src="images/screenshots/Screenshot4.pngg" alt="Usernameandlogout" width="400" />
-
-<img src="images/screenshots/Screenshot3.pngg" alt="Products" width="400" />
-
-<img src="images/screenshots/Screenshot2.pngg" alt="Filtering" width="400" />
+<img src="images/screenshots/screenshot1.png" alt="Header" width="400" />
+<img src="images/screenshots/screenshot2.png" alt="Filtering" width="400" />
+<img src="images/screenshots/screenshot3.png" alt="List of Products" width="400" />
+<img src="images/screenshots/screenshot4.png" alt="Username and logout button" width="400" />
