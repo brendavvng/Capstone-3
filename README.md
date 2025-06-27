@@ -56,12 +56,12 @@ Note: This is a single-page application. Features like the cart and checkout are
 ---
 
 #### 🔍 Filtering
-<img src="images/screenshots/Screenshot2.png" alt="Filtering" width="400" />
+<img src="images/screenshots/Screenshot2.png" alt="Filtering" width="400" height="350" />
 
 ---
 
 #### 🛒 Product Listing
-<img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" />
+<img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" height="350" />
 
 ---
 
