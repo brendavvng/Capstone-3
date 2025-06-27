@@ -47,22 +47,23 @@ Here’s a look at the current state of the EasyShop application:
 
 Note: This is a single-page application. Features like the cart and checkout are still under development.
 
+#### Logo
 ![Logo](images/screenshots/logo.png)
 
 #### 🧭 Header & Navigation
-![Header](images/screenshots/Screenshot1.png)
+<img src="images/screenshots/Screenshot1.png" alt="Header" width="400" />
 
 ---
 
 #### 🔍 Filtering
-![Filtering](images/screenshots/Screenshot2.png)
+<img src="images/screenshots/Screenshot2.png" alt="Filtering" width="400" />
 
 ---
 
 #### 🛒 Product Listing
-![Products](images/screenshots/Screenshot3.png)
+<img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" />
 
 ---
 
 #### 👤 User Info & Logout
-![User](images/screenshots/Screenshot4.png)
+<img src="images/screenshots/Screenshot4.png" alt="User Info" width="400" />
