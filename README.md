@@ -77,7 +77,9 @@ Note: This is a single-page application. Features like the cart and checkout are
 
 You can get a random fun fact about the products by calling:
 
+```
 GET /products/funfact
+```
 
 **Response example:**
 
@@ -85,26 +87,25 @@ GET /products/funfact
 {
   "funFact": "Did you know? Electronics is the fastest-growing category!"
 }
-
+```
 
 Each time you call this endpoint, you will receive a different random fun fact from a small curated list, perfect for adding some personality or fun messages to your application or testing!
 
-This endpoint is implemented in ProductsController like this:
+This endpoint is implemented in `ProductsController` like this:
 
 ```java
 @GetMapping("/funfact")
-    public Map<String, String> randomFunFact() {
-        // array of facts to choose from randomly
-        String[] funFacts = {
-                "Did you know? Electronics is the fastest-growing category!",
-                "Fun fact: Our 'Books' category has over 10,000 titles!",
-                "Our 'Clothing' category features items from over 100 brands!",
-                "We update categories weekly to keep things fresh!"
-        };
-        // generates a random index between 0 and length of array
-        int index = (int) (Math.random() * funFacts.length);
-        // returns a map - which spring converts into JSON with the randomly selected fun fact
-        return Map.of("funFact", funFacts[index]);
-    }
+public Map<String, String> randomFunFact() {
+    // array of facts to choose from randomly
+    String[] funFacts = {
+        "Did you know? Electronics is the fastest-growing category!",
+        "Fun fact: Our 'Books' category has over 10,000 titles!",
+        "Our 'Clothing' category features items from over 100 brands!",
+        "We update categories weekly to keep things fresh!"
+    };
+    // generates a random index between 0 and length of array
+    int index = (int) (Math.random() * funFacts.length);
+    // returns a map - which Spring converts into JSON with the randomly selected fun fact
+    return Map.of("funFact", funFacts[index]);
 }
 ```
