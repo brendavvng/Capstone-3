@@ -17,6 +17,7 @@ import java.util.Map;
 // only logged in users should have access to these actions
 
 @RestController
+@CrossOrigin
 @PreAuthorize("permitAll()") // this will apply to all methods
 public class ShoppingCartController
 {
@@ -49,6 +50,7 @@ public class ShoppingCartController
         }
         catch(Exception e)
         {
+            e.printStackTrace();
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
         }
     }
@@ -57,19 +59,26 @@ public class ShoppingCartController
     // https://localhost:8080/cart/products/15 (15 is the productId to be added
 
     @PostMapping("/cart/products/{productId}")
-    public ShoppingCart addToCart(@PathVariable int productId, Principal principal) {
+    public ShoppingCart addToCart(@PathVariable int productId,
+                                  @RequestBody Map<String, Integer> body,
+                                  Principal principal) {
 
         try {
-            // get the currently logged in username
-            String userName = principal.getName();
+            int quantity = body.getOrDefault("quantity", 1);
 
-            // find database user by userId
+            // getting the logged in username
+            String userName = principal.getName();
             User user = userDao.getByUserName(userName);
             int userId = user.getId();
 
-            // use the shoppingcartDao to get add items in the cart and return the cart
-            return shoppingCartDao.addProduct(userId, productId);
+            // adding product with specific quantity
+            shoppingCartDao.addProduct(userId, productId, quantity);
+
+            // returns updated shopping cart
+            return shoppingCartDao.getByUserId(userId);
+
         } catch (Exception e) {
+            e.printStackTrace();
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
         }
     }
@@ -104,6 +113,7 @@ public class ShoppingCartController
             // returns updating shopping cart
             return shoppingCartDao.getByUserId(userId);
         } catch (Exception e) {
+            e.printStackTrace();
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
         }
     }

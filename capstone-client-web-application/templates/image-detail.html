@@ -1,17 +1,18 @@
 <div id="image-detail-form" class="modal" onclick="hideModalForm()">
-  <div class="modal-dialog" role="document" onclick="event.stopPropagation()">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modal-title">Product Name</h5>
-        <button type="button" class="btn-close" onclick="hideModalForm()" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <h5 class="modal-title" id="image-header">{{name}}</h5>
+        <button type="button" class="btn-close" onclick="hideModalForm()" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
         </button>
       </div>
       <div class="modal-body">
-        <img id="modal-image" src="" alt="" class="img-fluid mb-3" />
-        <p id="modal-description">Product description goes here.</p>
-        <h5 id="modal-price" class="text-success">$0.00</h5>
+        <div>
+        <img id="product-image" src="{{imageUrl}}" alt="">
+        </div>
       </div>
     </div>
   </div>
+
 </div>

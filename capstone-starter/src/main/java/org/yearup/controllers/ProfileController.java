@@ -12,6 +12,7 @@ import org.yearup.models.User;
 import java.security.Principal;
 
 @RestController
+@CrossOrigin
 @PreAuthorize("permitAll()")
 public class ProfileController {
 
