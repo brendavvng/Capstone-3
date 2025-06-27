@@ -15,8 +15,7 @@ This project was built to demonstrate CRUD operations, API consumption using Pos
 
 ⚠️ Note: Some features such as the shopping cart and checkout are under development and not fully functional. The ShoppingCart and ShoppingCartItem models are in place, but viewing and adding to cart currently fails due to unresolved backend issues.
 
-︵‿︵‿︵‿︵‿︵‿︵‿୨♡୧‿︵‿︵‿︵‿︵‿︵‿︵
-
+ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ୨♡୧ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈
 
 🧭 Future Features (Planned):
 Priority	Feature
