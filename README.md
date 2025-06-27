@@ -49,10 +49,11 @@ Note: This is a single-page application. Features like the cart and checkout are
 
 ![Logo](images/screenshots/logo.png)
 
-![Header](images/screenshots/Screenshot1.png)
 
-![Username and log out button](images/screenshots/Screenshot4.png)
+<img src="images/screenshots/Screenshot2.pngg" alt="Filtering" width="400" />
 
-![List of Products](images/screenshots/Screenshot3.png)
+<img src="images/screenshots/Screenshot4.pngg" alt="Usernameandlogout" width="400" />
 
-![Filtering](images/screenshots/Screenshot2.png)
+<img src="images/screenshots/Screenshot3.pngg" alt="Products" width="400" />
+
+<img src="images/screenshots/Screenshot2.pngg" alt="Filtering" width="400" />
