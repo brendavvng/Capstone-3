@@ -49,10 +49,10 @@ Note: This is a single-page application. Features like the cart and checkout are
 
 ![Logo](images/screenshots/logo.png)
 
-![Header](Screenshot%202025-06-26%20222652.png)
+![Header](images/Screenshot%202025-06-26%20222652.png)
 
-![Username and log out button](Screenshot%202025-06-26%20222803.png)
+![Username and log out button](images/Screenshot%202025-06-26%20222803.png)
 
-![List of Products](Screenshot%202025-06-26%20222736.png)
+![List of Products](images/Screenshot%202025-06-26%20222736.png)
 
-![Filtering](Screenshot%202025-06-26%20222720.png)
+![Filtering](images/Screenshot%202025-06-26%20222720.png)
