@@ -73,6 +73,8 @@ Note: This is a single-page application. Features like the cart and checkout are
 <img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" height="600" />
 
 
+
+### ╭──────────────────────────────────────.★..─╮
 ### Fun Fact Endpoint
 
 You can get a random fun fact about the products by calling:
@@ -109,3 +111,5 @@ public Map<String, String> randomFunFact() {
     return Map.of("funFact", funFacts[index]);
 }
 ```
+
+### ╰─..★.──────────────────────────────────────╯
