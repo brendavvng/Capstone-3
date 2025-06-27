@@ -5,13 +5,10 @@ Welcome to EasyShop, a full-stack e-commerce application project designed for us
 
 ## 🌐 Project Overview
 
-EasyShop is a basic e-commerce web application with:
+Currently, the application supports:
 
-- 🗂️ Product listing and details
-- 🔎 Product search and filtering
-- 🛒 Add to Cart functionality
-- ✅ Checkout system with validation
-- 📁 Admin support for managing products
-- 🧩 Category browsing
+- 🔍 Product browsing and searching
+- 🗂️ Viewing product details
+- 📁 Browsing products by category
 
 This project was built to demonstrate CRUD operations, API consumption using Postman and AJAX, database integration, and frontend rendering with HTML templates.
