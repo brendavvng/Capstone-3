@@ -18,11 +18,11 @@ This project was built to demonstrate CRUD operations, API consumption using Pos
  ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ୨♡୧ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈
 
 ## 🧭 Future Features:
-Priority	Feature
-- 🔒 High	Shopping cart + checkout
-- 🔐 High	User login and authentication
-- 💾 Medium	Order history for users
-- 💬 Medium	Product reviews and ratings
-- 🎁 Medium	Wishlist or favorites
-- 💳 Low	Payment gateway integration (e.g. Stripe)
-- 📱 Low	Mobile-friendly/responsive design
+Priority	+     Feature
+- 🔒 High	    Shopping cart + checkout
+- 🔐 High	    User login and authentication
+- 💾 Medium	    Order history for users
+- 💬 Medium	    Product reviews and ratings
+- 🎁 Medium	    Wishlist or favorites
+- 💳 Low	    Payment gateway integration (e.g. Stripe)
+- 📱 Low	    Mobile-friendly/responsive design
