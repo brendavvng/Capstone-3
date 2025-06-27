@@ -12,7 +12,7 @@ Welcome to EasyShop, a full-stack e-commerce application project designed for us
 
 ✔️ Features Implemented:
 
-- 🔍 Product browsing and searching
+- 🔍 Product browsing and searching by color
 - 🗂️ Viewing product details
 - 📁 Browsing products by category
 
