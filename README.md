@@ -19,12 +19,13 @@ This project was built to demonstrate CRUD operations, API consumption using Pos
 
 ## 🧭 Future Features:
 Priority	+     Feature
-- 🔒 High	    Shopping cart + checkout
-- 🔐 High	    User login and authentication
-- 💾 Medium	    Order history for users
-- 💬 Medium	    Product reviews and ratings
-- 🎁 Medium	    Wishlist or favorites
-- 💳 Low	    Payment gateway integration (e.g. Stripe)
+- 🔒 High	    Fix shopping cart functionality
+- 🔐 High	    Add user authentication (login/register)
+- 💳 Medium    Integrate checkout and payment simulation
+- 💾 Medium	    Implement order history and receipts
+- 💬 Medium	    Enable product reviews and star ratings
+- 🎁 Medium	    	Add wishlist/favorites
+- 💳 Low	    Add sorting to product listings
 - 📱 Low	    Mobile-friendly/responsive design
 
 
