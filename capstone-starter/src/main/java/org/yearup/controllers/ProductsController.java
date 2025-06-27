@@ -42,7 +42,7 @@ public class ProductsController
         }
     }
 
-    @GetMapping("/products/{id}")
+    @GetMapping("/{id}")
     @PreAuthorize("permitAll()")
     public Product getById(@PathVariable int id )
     {
@@ -62,7 +62,7 @@ public class ProductsController
         }
     }
 
-    @PostMapping("/products")
+    @PostMapping("")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public Product addProduct(@RequestBody Product product)
     {
@@ -76,7 +76,7 @@ public class ProductsController
         }
     }
 
-    @PutMapping("/products/{id}")
+    @PutMapping("/{id}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void updateProduct(@PathVariable int id, @RequestBody Product product)
     {
@@ -91,7 +91,7 @@ public class ProductsController
         }
     }
 
-    @DeleteMapping("/products/{id}")
+    @DeleteMapping("/{id}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void deleteProduct(@PathVariable int id)
     {
