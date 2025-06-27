@@ -61,7 +61,7 @@ Note: This is a single-page application. Features like the cart and checkout are
 ---
 
 #### 🛒 Product Listing
-<img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" height="400" />
+<img src="images/screenshots/Screenshot3.png" alt="Product Listing" width="400" height="470" />
 
 ---
 
