@@ -25,7 +25,7 @@ Priority	+     Feature
 - 💾 Medium	    Implement order history and receipts
 - 💬 Medium	    Enable product reviews and star ratings
 - 🎁 Medium	    	Add wishlist/favorites
-- 💳 Low	    Add sorting to product listings
+- 🔄 Low	    Add sorting to product listings
 - 📱 Low	    Mobile-friendly/responsive design
 
 
