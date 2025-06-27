@@ -26,3 +26,16 @@ Priority	+     Feature
 - 🎁 Medium	    Wishlist or favorites
 - 💳 Low	    Payment gateway integration (e.g. Stripe)
 - 📱 Low	    Mobile-friendly/responsive design
+
+
+## 🔧 Next Steps / Known Issues
+- Debug the cart loading issue (likely related to the cart DAO or database table structure)
+- Complete addToCart() and viewCart() endpoints
+- Ensure foreign key constraints are properly set up for cart and cart items
+- Add exception handling for better error responses
+
+## 🛠️ Tech Stack
+- Backend: Java, Spring Boot, MySQL
+- Frontend: HTML, CSS
+- Testing: Postman (for API testing)
+- Tools: IntelliJ, Git, GitHub
