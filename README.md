@@ -51,7 +51,7 @@ Note: This is a single-page application. Features like the cart and checkout are
 <img src="/images/screenshots/logo.png" alt="Logo" width="400" />
 
 #### 🧭 Header & Navigation
-<img src="images/screenshots/Screenshot1.png" alt="Header" width="400" />
+<img src="images/screenshots/Screenshot1.png" alt="Header" width="400" height ="400"/>
 
 ---
 
