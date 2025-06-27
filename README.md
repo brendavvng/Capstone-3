@@ -43,5 +43,6 @@ This project was built to demonstrate CRUD operations, API consumption using Pos
 
 ## Screenshots
 Here’s a look at the current state of the EasyShop application:
+
 Note: This is a single-page application. Features like the cart and checkout are still under development.
 
