@@ -16,17 +16,18 @@ This project was built to demonstrate CRUD operations, API consumption using Pos
 ⚠️ Note: Some features such as the shopping cart and checkout are under development and not fully functional. The ShoppingCart and ShoppingCartItem models are in place, but viewing and adding to cart currently fails due to unresolved backend issues.
 
 
-## 🧭 Future Features:
-Priority	+     Feature
-- 🔒 High	    Fix shopping cart functionality
-- 🔐 High	    Add user authentication (login/register)
-- 💳 Medium    Integrate checkout and payment simulation
-- 💾 Medium	    Implement order history and receipts
-- 💬 Medium	    Enable product reviews and star ratings
-- 🎁 Medium	    	Add wishlist/favorites
-- 🔄 Low	    Add sorting to product listings
-- 📱 Low	    Mobile-friendly/responsive design
+## 🧭 Future Features
 
+| Priority | Feature |
+|----------|---------|
+| 🔒 High  | Fix shopping cart functionality             |
+| 🔐 High  | Add user authentication (login/register)    |
+| 💳 Medium| Integrate checkout and payment simulation   |
+| 💾 Medium| Implement order history and receipts        |
+| 💬 Medium| Enable product reviews and star ratings     |
+| 🎁 Medium| Add wishlist/favorites                      |
+| 🔄 Low   | Add sorting to product listings             |
+| 📱 Low   | Mobile-friendly/responsive design           |
 
 ## 🔧 Technical Notes & To-Do
 - Debug the cart loading issue (likely related to the cart DAO or database table structure)
