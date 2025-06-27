@@ -84,7 +84,8 @@ GET /products/funfact
 ```json
 {
   "funFact": "Did you know? Electronics is the fastest-growing category!"
-}```
+}
+
 
 Each time you call this endpoint, you will receive a different random fun fact from a small curated list, perfect for adding some personality or fun messages to your application or testing!
 
