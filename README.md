@@ -5,7 +5,7 @@ Welcome to EasyShop, a full-stack e-commerce application project designed for us
 
 ## 🌐 Project Overview
 
-Currently, the application supports:
+✔️ Features Implemented:
 
 - 🔍 Product browsing and searching
 - 🗂️ Viewing product details
