@@ -29,14 +29,14 @@ Priority	+     Feature
 - 📱 Low	    Mobile-friendly/responsive design
 
 
-## 🔧 Next Steps / Known Issues
+## 🔧 Technical Notes & To-Do
 - Debug the cart loading issue (likely related to the cart DAO or database table structure)
 - Complete addToCart() and viewCart() endpoints
 - Ensure foreign key constraints are properly set up for cart and cart items
 - Add exception handling for better error responses
+- Validate product quantity before cart updates
 
 ## 🛠️ Tech Stack
 - Backend: Java, Spring Boot, MySQL
 - Frontend: HTML, CSS
-- Testing: Postman (for API testing)
-- Tools: IntelliJ, Git, GitHub
+- Tools: IntelliJ, Git, GitHub, Postman (for API testing)
