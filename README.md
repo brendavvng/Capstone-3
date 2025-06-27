@@ -17,7 +17,7 @@ This project was built to demonstrate CRUD operations, API consumption using Pos
 
  ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ୨♡୧ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈
 
-## 🧭 Future Features (Planned):
+## 🧭 Future Features:
 Priority	Feature
 - 🔒 High	Shopping cart + checkout
 - 🔐 High	User login and authentication
